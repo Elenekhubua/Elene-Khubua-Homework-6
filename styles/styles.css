@@ -13,10 +13,18 @@
 	top: 70%;
 	left:0%;
 	display: inline-block;
+	animation: carmove 10s infinite linear;
 }
 .purplecar{
 	width: 550px;
 	height: 250px;
+}
+@keyframes carmove{
+	0% {left:0%  }
+	25% {left: 25% }
+	50% {left: 50%  }
+	75% {left: 75% }
+	100%{left:100% }
 }
 
 .div2{
@@ -24,29 +32,53 @@
 	top: 47%;
 	left: 0%;
 	display: inline-block;
+	animation: womanmove 20s infinite linear;
 }
 .woman{
 	width: 100px;
 	height: 150px;
+}
+@keyframes womanmove{
+	0% {left:0%  }
+	25% {left: 25% }
+	50% {left: 50% }
+	75% {left: 75% }
+	100%{left:100% }
 }
 .div3{
 	position: absolute;
 	top: 47%;
 	right: 0%;
 	display: inline-block;
+	animation: manmove 20s infinite linear;
 }
 .man{
 	width: 300px;
 	height: 150px;
 }
+@keyframes manmove{
+	0% {right:0%  }
+	25% {right: 25% }
+	50% {right: 50% }
+	75% {right: 75% }
+	100%{right:100% }
+}
 .div4{
 	position: absolute;
-	top: 50%;
-	left: 73%;
+	top: 10%;
+	left: 53%;
 	display: inline-block;
-}
-.dog{
-	width: 150px;
-	height: 30px;
+	animation: birdmove 10s infinite linear;
 }
 
+.bird1{
+	width: 150px;
+	height: 70px;
+}
+@keyframes birdmove{
+	0% {left:53%  }
+	25% {left: 60% }
+	50% {left: 75% }
+	75% {left: 90% }
+	100%{left:100% }
+}
