@@ -6,16 +6,14 @@
     width: 100%;
     height: 100%;
 }
-.div1{
-	position: absolute;
-	top: 70%;
-	left:0%;
-	display: inline-block;
-	animation: carmove 10s infinite linear;
-}
+
 .purplecar{
 	width: 550px;
 	height: 250px;
+	position: absolute;
+	top: 70%;
+	left:0%;
+	animation: carmove 10s infinite linear;
 }
 @keyframes carmove{
 	0% {left:0%  }
@@ -24,17 +22,13 @@
 	75% {left: 75% }
 	100%{left:100% }
 }
-
-.div2{
-	position: absolute;
-	top: 47%;
-	left: 0%;
-	display: inline-block;
-	animation: womanmove 20s infinite linear;
-}
 .woman{
 	width: 100px;
 	height: 150px;
+	position: absolute;
+	top: 47%;
+	left: 0%;
+	animation: womanmove 15s infinite linear;
 }
 @keyframes womanmove{
 	0% {left:0%  }
@@ -43,16 +37,13 @@
 	75% {left: 75% }
 	100%{left:100% }
 }
-.div3{
-	position: absolute;
-	top: 47%;
-	right: 0%;
-	display: inline-block;
-	animation: manmove 20s infinite linear;
-}
 .man{
 	width: 300px;
 	height: 150px;
+	position: absolute;
+	top: 47%;
+	right: 0%;
+	animation: manmove 15s infinite linear;
 }
 @keyframes manmove{
 	0% {right:0%  }
@@ -61,17 +52,13 @@
 	75% {right: 75% }
 	100%{right:100% }
 }
-.div4{
-	position: absolute;
-	top: 10%;
-	left: 53%;
-	display: inline-block;
-	animation: birdmove 10s infinite linear;
-}
-
 .bird1{
 	width: 150px;
 	height: 70px;
+	position: absolute;
+	top: 10%;
+	left: 53%;
+	animation: birdmove 10s infinite linear;
 }
 @keyframes birdmove{
 	0% {left:53%  }
